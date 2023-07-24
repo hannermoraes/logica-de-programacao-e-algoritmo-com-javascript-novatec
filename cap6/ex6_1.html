@@ -1,0 +1,16 @@
+<script>
+
+  var anuncio = prompt("Anúncio: ");  //lê o anúncio
+  var tam = anuncio.length; //obtém o tamanho
+  var numPalavras = 0;  //inicia o contador
+
+  // percorre os caracteres de um anúncio
+  for (var i = 0; i < tam; i++) {
+    if (anuncio.charAt(i) == " ") {
+      // se encontrar um espaço vazio
+      numPalavras++;
+    }
+  }
+  //exibe anúncio e número de palavras (que é o nº de espaços + 1)
+  alert("Anúncio: " + anuncio + "\nNº Palavras: " + (numPalavras + 1));
+</script>

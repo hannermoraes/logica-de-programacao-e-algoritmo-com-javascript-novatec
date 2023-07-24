@@ -1,0 +1,23 @@
+<script>
+
+  var parcelas = Number(prompt("Quantas Parcelas? "))
+
+  var lista = "";
+  var dia, mes, ano, diaZero, mesZero;
+
+  var data = new Date() //data atual
+
+  for (var i = 1; i <= parcelas; i++) {
+    data.setMonth(data.getMonth() + 1)
+    dia = data.getDate()
+    mes = data.getMonth()
+    ano = data.getFullYear()
+
+    diaZero = dia < 10 ? "0" + dia : dia;  //acrescenta 0 se dia menor que 10
+    mesZero = mes < 10 ? "0" + mes : dia; //acrescenta 0 se mês menor que 10
+
+    //concatena as parcelas na variável linha, com uma quebra de linha ao final
+    lista += i + "ª Parcela: " + diaZero + "/" + mesZero + "/" + ano + "\n";
+  }
+  alert(lista)  //exibe as parcelas
+</script>

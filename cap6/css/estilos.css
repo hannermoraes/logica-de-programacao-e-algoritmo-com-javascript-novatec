@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+img {
+  float: left;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+h1 {
+  border-bottom-style: inset;
+}
+
+.entreLetras {
+  letter-spacing: 0.5em;
+}
+
+.aDireita {
+  text-align: right;
+}
