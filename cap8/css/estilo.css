@@ -1,0 +1,39 @@
+img {
+  max-width: 100%;
+}
+
+h5 {
+  display: flex;
+  justify-content: end;
+}
+
+pre {
+  font-size: 1.2em;
+}
+
+.bg-danger {
+  border-radius: 5px;
+}
+
+.oculta {
+  display: none;
+}
+
+.exibe {
+  display: inline;
+}
+
+.coresBrasil {
+  color: black;
+  background-color: red;
+}
+
+.coresPelotas {
+  color: blue;
+  background-color: yellow;
+}
+
+.coresFarroupilha {
+  color: green;
+  background-color: white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+
+  <script>
+
+    // entrada de dados
+    var preco = Number(prompt("Preço do Produto: "));
+    var aVista = preco * 0.10;
+    var parcelado = preco / 3;
+
+    // resultados
+    var pagamentoComDesconto = preco - aVista;
+
+    alert("Preço do Produto: R$ " + preco.toFixed(2) + "\nDesconto à Vista: R$ " + pagamentoComDesconto.toFixed(2) + "\nParcelado em 3x: R$ " + parcelado.toFixed(2));
+
+  </script>
+
+</body>
+
+</html>
